@@ -1,0 +1,1 @@
+stow -d ~/Projects/monkhyprland/ -t ~/ dotfiles
