@@ -1,0 +1,53 @@
+## INSTALAR ##
+
+- hyprpaper
+- kitty
+- waybar
+- rofi
+- stow
+- wallpaperengine
+- yay
+
+## ALIAS ##
+
+alias a='cd ~/.config/hypr'
+alias c='clear'
+alias h='nano ~/.config/hypr/hyprland.conf'
+
+## YAY ##
+
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+
+## Wallpaper engine ##
+
+https://github.com/Almamu/linux-wallpaperengine
+
+Comando: linux-wallpaperengine --screen-root eDP-1 --bg 2651205941
+Ruta para comando: ~/linux-wallpaperengine/build/output
+
+Para obtener el id del fondo, dentro de steam en workshop elegir el fondo que queremos, boton derecho, abrir en el explorador, el ultimo numero es el id
+2651205941 chica katana
+3326393975 kimetsu jabali
+1673006916 bola de dragon
+3556484150 spiderman
+3589454154 planeta
+
+Pasos:
+
+1 Dependencias:
+    yay -S linux-wallpaperengine-git
+2 Instalar Steam
+    instalar wallpaperengine desde steam (ruta por defecto)
+3 Clonar repositorio:
+    git clone --recurse-submodules https://github.com/Almamu/linux-wallpaperengine.git
+    cd linux-wallpaperengine
+4 Compilar:
+    mkdir build && cd build
+    cmake -DCMAKE_BUILD_TYPE='Release' ..
+    make
+5 Uso:
+    ./linux-wallpaperengine [options] <background_id or path>
+                
