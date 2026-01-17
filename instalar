@@ -54,4 +54,7 @@ Pasos:
 ## Libreoffice ##
 
 sudo pacman -S libreoffice-fresh libreoffice-fresh-es
-                
+
+## Obsidian ##
+
+sudo pacman -S obsidian
