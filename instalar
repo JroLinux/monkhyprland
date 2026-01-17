@@ -50,4 +50,8 @@ Pasos:
     make
 5 Uso:
     ./linux-wallpaperengine [options] <background_id or path>
+
+## Libreoffice ##
+
+sudo pacman -S libreoffice-fresh libreoffice-fresh-es
                 
