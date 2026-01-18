@@ -25,7 +25,7 @@ makepkg -si
 
 https://github.com/Almamu/linux-wallpaperengine
 
-Comando: linux-wallpaperengine --screen-root eDP-1 --bg 2651205941
+Comando: ./linux-wallpaperengine --screen-root eDP-1 --bg 2651205941
 Ruta para comando: ~/linux-wallpaperengine/build/output
 
 Para obtener el id del fondo, dentro de steam en workshop elegir el fondo que queremos, boton derecho, abrir en el explorador, el ultimo numero es el id
